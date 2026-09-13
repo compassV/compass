@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "gold_core" / "data" / "raw_data_yahoo_refreshed.csv"
 DRIFT_FLAG = ROOT / "reports" / "vnext_shadow" / "DRIFT_KILL_FLAG.json"
 OUT_JSON = ROOT / "data" / "btc_v2.json"
-SIM_JSON = ROOT / "reports" / "VNEXT_VS_BTC_SIMULATION_2026-09-13.json"
+SIM_JSON = ROOT / "reports" / "VNEXT_VS_BTC_DEEP_SIMULATION_2026-09-13.json"
 
 CLASS_MAP = {0: "BEAR", 1: "FLAT", 2: "BULL"}
 FEATURE_COLS = [
@@ -182,8 +182,9 @@ def main() -> None:
                 "On off-regime sessions no signal is published."
             ),
             "short_history": (
-                "V2-Compass BTC evidence covers ~2 years of Yahoo hourly data (2024-11 to 2026-09), a strong "
-                "bull period for BTC. Performance in bear or sideways regimes is not represented."
+                "V2-Compass BTC evidence covers 9 years of Binance hourly data (2017-11 to 2026-09), spanning "
+                "multiple regimes including the 2018 bear, 2020 bull, 2022 crypto winter, and 2024-26 recovery. "
+                "Aggregate edge is real but concentrated in strong-trend years; performance in coin-flip years is weaker."
             ),
         },
     }
