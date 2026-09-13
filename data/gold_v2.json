@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "product": "Compass V2 (Vs) \u2014 gold session-anchored directional forecast (Asia / London / NY)",
+  "generated_at_utc": "2026-09-13T13:32:02.155345Z",
+  "sessions": {
+    "ASIA": {
+      "session": "ASIA",
+      "session_open_utc": "2026-09-10T23:00:00Z",
+      "session_open_price": 4358.7001953125,
+      "current_price": 4354.5,
+      "previous_session_close": 4407.7998046875,
+      "move_vs_previous_close_pct": -1.2092156415728805,
+      "signal": "NO_SIGNAL",
+      "raw_direction": "BULL",
+      "prob_bull": 0.45462970282098336,
+      "prob_bear": 0.4393628265923603,
+      "prob_flat": 0.10600747058665644,
+      "regime_on": false,
+      "regime_signals": {
+        "trend_168h_pct": -3.3300033300033283,
+        "momentum_up": false,
+        "dxy_z252": -0.030798706222925312,
+        "real_yield_z252": 2.368654896209326
+      },
+      "forecast_horizon_hours": 8,
+      "drift_state": "WARMUP"
+    },
+    "LONDON": {
+      "session": "LONDON",
+      "session_open_utc": "2026-09-11T07:00:00Z",
+      "session_open_price": 4394.2001953125,
+      "current_price": 4386.10009765625,
+      "previous_session_close": 4354.5,
+      "move_vs_previous_close_pct": 0.7256883145309478,
+      "signal": "NO_SIGNAL",
+      "raw_direction": "BULL",
+      "prob_bull": 0.5664408020750792,
+      "prob_bear": 0.19922794180079603,
+      "prob_flat": 0.2343312561241248,
+      "regime_on": false,
+      "regime_signals": {
+        "trend_168h_pct": -2.1025313291019865,
+        "momentum_up": false,
+        "dxy_z252": -0.008050049562371047,
+        "real_yield_z252": null
+      },
+      "forecast_horizon_hours": 8,
+      "drift_state": "WARMUP"
+    },
+    "NY": {
+      "session": "NY",
+      "session_open_utc": "2026-09-11T13:00:00Z",
+      "session_open_price": 4430.5,
+      "current_price": 4443.89990234375,
+      "previous_session_close": 4386.60009765625,
+      "move_vs_previous_close_pct": 1.3062463733157559,
+      "signal": "NO_SIGNAL",
+      "raw_direction": "BEAR",
+      "prob_bull": 0.2676975303245135,
+      "prob_bear": 0.40962239805224954,
+      "prob_flat": 0.322680071623237,
+      "regime_on": false,
+      "regime_signals": {
+        "trend_168h_pct": -1.0950166754167046,
+        "momentum_up": false,
+        "dxy_z252": -0.008050049562371047,
+        "real_yield_z252": null
+      },
+      "forecast_horizon_hours": 8,
+      "drift_state": "WARMUP"
+    }
+  },
+  "track_record": {
+    "available": true,
+    "methodology": "V2-Session (Vs) walk-forward on Yahoo GC=F hourly bars covering 2024-11 to 2026-09. HistGradientBoostingClassifier trained on intraday hourly features + daily macro z-scores. Emits at three session opens: 23:00 UTC (Asia), 07:00 UTC (London), 13:00 UTC (NY). Regime filter (pre-declared): 168-hour trend > +1% AND 24h EMA > 120h EMA AND (DXY z252 < 0 OR real yield z252 < 0). Target: 8-hour forward direction. Realistic cost sensitivity applied.",
+    "n_holdout_emits": 400,
+    "coverage": "2024-11-06 to 2026-09-10",
+    "mean_return_pct_per_emit": 0.20087056951545748,
+    "median_return_pct_per_emit": 0.18981299565239,
+    "win_rate": 0.6225,
+    "std_return_pct": 0.9500365347892352,
+    "bootstrap_ci95_mean_pct": [
+      0.10812212116694547,
+      0.2932171833773006
+    ],
+    "bootstrap_ci_excludes_zero": true,
+    "block_bootstrap_20h_ci95": [
+      0.10544004205584513,
+      0.3186052851918881
+    ],
+    "cost_5bps_mean_pct": 0.15087056951545746,
+    "cost_5bps_ci_excludes_zero": true,
+    "by_session": {
+      "ASIA": {
+        "n": 131,
+        "mean_pct": 0.10345443113751525,
+        "win_rate": 0.5648854961832062
+      },
+      "LONDON": {
+        "n": 136,
+        "mean_pct": 0.23921839749723178,
+        "win_rate": 0.6911764705882353
+      },
+      "NY": {
+        "n": 133,
+        "mean_pct": 0.25760898697402235,
+        "win_rate": 0.6090225563909775
+      }
+    },
+    "monte_carlo_12mo_median_terminal_pct": 52.80344332339217,
+    "monte_carlo_12mo_prob_loss_pct": 0.12,
+    "historical_emits_per_year": 217.08766716196138,
+    "notes": "This V2-Session engine emits up to 3 times per day (once per session open). Regime filter keeps it silent when the intraday trend isn't clearly up. Historical evidence covers ~2 years of walk-forward simulation; performance in unseen regimes (bear markets, sideways) is unknown. All returns are directional 8-hour realized returns after regime + Model filter. Realistic costs up to 8 bps preserve statistical significance; 15 bps breaks it."
+  },
+  "disclaimers": {
+    "not_trading_advice": "This forecast is a directional model output for informational purposes only. It is not personal investment advice. Users are responsible for their own trading decisions and risk management. Historical performance does not guarantee future results.",
+    "regime_dependence": "The Vs signal only fires when the intraday regime is on (trending uptrend + momentum + macro tailwind). Outside that regime it emits NO_SIGNAL for the session by design.",
+    "short_history": "V2-Session evidence covers approximately 2 years of Yahoo hourly gold data (2024-11 to 2026-09). This period was a strong trending bull market for gold. Performance in bear, range-bound, or high-volatility periods is not represented in the historical evidence."
+  }
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+secrets/
+*.pat
+*.key
+reports/vnext_data/.yfinance_cache/

@@ -1,0 +1,50 @@
+name: Compass V2 — daily full refresh
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: compass-v2-publish
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Refresh Yahoo daily bars
+        run: python -m vnext.live_data_yahoo
+
+      - name: Refresh FRED macro
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python -m vnext.live_data_fred
+
+      - name: Publish gold session forecast
+        run: python -m vnext.session_engine.publisher
+
+      - name: Publish BTC session forecast
+        run: python -m vnext.session_engine.btc_publisher
+
+      - name: Commit outputs
+        run: |
+          git config user.name "compass-bot"
+          git config user.email "compass-bot@users.noreply.github.com"
+          git add data/ gold_core/data/ reports/vnext_shadow/ reports/vnext_data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "auto: daily refresh $(date -u +%FT%TZ)"
+            git push
+          fi

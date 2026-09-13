@@ -1,0 +1,118 @@
+{
+  "schema_version": 2,
+  "product": "Compass V2 (Vs) \u2014 BTC session-anchored directional forecast (Asia / London / NY)",
+  "instrument": "BTC-USD",
+  "generated_at_utc": "2026-09-13T13:31:49.494450Z",
+  "sessions": {
+    "ASIA": {
+      "session": "ASIA",
+      "session_open_utc": "2026-09-12T23:00:00Z",
+      "session_open_price": 77219.828125,
+      "current_price": 77266.421875,
+      "previous_session_close": 77363.96875,
+      "move_vs_previous_close_pct": -0.1260882508693717,
+      "signal": "NO_SIGNAL",
+      "raw_direction": "FLAT",
+      "prob_bull": 0.21208033179441824,
+      "prob_bear": 0.20036836615259968,
+      "prob_flat": 0.5875513020529821,
+      "regime_on": false,
+      "regime_signals": {
+        "trend_168h_pct": -3.224148662613602,
+        "momentum_up": false,
+        "dxy_z252": -0.008050049562371047,
+        "real_yield_z252": null
+      },
+      "forecast_horizon_hours": 8,
+      "drift_state": "WARMUP"
+    },
+    "LONDON": {
+      "session": "LONDON",
+      "session_open_utc": "2026-09-13T07:00:00Z",
+      "session_open_price": 77077.1484375,
+      "current_price": 77100.1796875,
+      "previous_session_close": 77266.421875,
+      "move_vs_previous_close_pct": -0.2151545049788206,
+      "signal": "NO_SIGNAL",
+      "raw_direction": "FLAT",
+      "prob_bull": 0.22990236265188094,
+      "prob_bear": 0.22733358468472323,
+      "prob_flat": 0.5427640526633959,
+      "regime_on": false,
+      "regime_signals": {
+        "trend_168h_pct": -3.395414973519162,
+        "momentum_up": false,
+        "dxy_z252": -0.008050049562371047,
+        "real_yield_z252": null
+      },
+      "forecast_horizon_hours": 8,
+      "drift_state": "WARMUP"
+    },
+    "NY": {
+      "session": "NY",
+      "session_open_utc": "2026-09-13T13:00:00Z",
+      "session_open_price": 76726.9921875,
+      "current_price": 76584.46875,
+      "previous_session_close": 77291.4296875,
+      "move_vs_previous_close_pct": -0.9146692464589434,
+      "signal": "NO_SIGNAL",
+      "raw_direction": "FLAT",
+      "prob_bull": 0.2843423576305775,
+      "prob_bear": 0.2413197867794023,
+      "prob_flat": 0.47433785559002023,
+      "regime_on": false,
+      "regime_signals": {
+        "trend_168h_pct": -4.067215107780397,
+        "momentum_up": false,
+        "dxy_z252": -0.008050049562371047,
+        "real_yield_z252": null
+      },
+      "forecast_horizon_hours": 8,
+      "drift_state": "WARMUP"
+    }
+  },
+  "track_record": {
+    "available": true,
+    "methodology": "V2-Compass BTC session engine walk-forward on Yahoo BTC-USD hourly (24/7 trading). Same intraday features + macro tailwind regime as gold. HistGradientBoostingClassifier. Emits at 23:00 UTC (Asia), 07:00 UTC (London), 13:00 UTC (NY). 8-hour forward direction target.",
+    "n_holdout_emits": 479,
+    "coverage": "2024-10-21 to 2026-09-12",
+    "mean_return_pct_per_emit": 0.07110972082704647,
+    "median_return_pct_per_emit": 0.05442463681478715,
+    "win_rate": 0.534446764091858,
+    "bootstrap_ci95_mean_pct": [
+      -0.035729418240443234,
+      0.17506048264120577
+    ],
+    "bootstrap_ci_excludes_zero": false,
+    "block_bootstrap_20h_ci95": [
+      -0.05452883117118443,
+      0.16741401464501193
+    ],
+    "cost_5bps_mean_pct": 0.021109720827046485,
+    "cost_5bps_ci_excludes_zero": false,
+    "by_session": {
+      "ASIA": {
+        "n": 160,
+        "mean_pct": 0.06894133970454915,
+        "win_rate": 0.54375
+      },
+      "LONDON": {
+        "n": 162,
+        "mean_pct": -0.019083152120495675,
+        "win_rate": 0.49382716049382713
+      },
+      "NY": {
+        "n": 157,
+        "mean_pct": 0.166384793420049,
+        "win_rate": 0.5668789808917197
+      }
+    },
+    "monte_carlo_12mo_median_terminal_pct": 17.78461948418054,
+    "historical_emits_per_year": 253.19066570188133
+  },
+  "disclaimers": {
+    "not_trading_advice": "This forecast is a directional model output for informational purposes only. It is not personal investment advice. Users are responsible for their own trading decisions and risk.",
+    "regime_dependence": "The Vs BTC signal only fires when the intraday regime is on (168h trend + momentum + macro tailwind). On off-regime sessions no signal is published.",
+    "short_history": "V2-Compass BTC evidence covers ~2 years of Yahoo hourly data (2024-11 to 2026-09), a strong bull period for BTC. Performance in bear or sideways regimes is not represented."
+  }
+}

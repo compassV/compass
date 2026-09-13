@@ -1,0 +1,6 @@
+{
+  "checked_at_utc": "2026-09-13T09:08:38.206812Z",
+  "n_live_observations": 0,
+  "state": "WARMUP",
+  "note": "Need at least 30 resolved live observations before drift monitoring engages."
+}
