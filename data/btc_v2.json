@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "product": "Compass V2 (Vs) \u2014 BTC session-anchored directional forecast (Asia / London / NY)",
+  "product": "Compass V2 (Vs): BTC session-anchored directional forecast (Asia / London / NY)",
   "instrument": "BTC-USD",
-  "generated_at_utc": "2026-09-13T13:48:01.816325Z",
+  "generated_at_utc": "2026-09-13T13:55:14.027607Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -52,17 +52,17 @@
       "session": "NY",
       "session_open_utc": "2026-09-13T13:00:00Z",
       "session_open_price": 76727.0,
-      "current_price": 76775.71875,
+      "current_price": 76840.6484375,
       "previous_session_close": 77291.4296875,
-      "move_vs_previous_close_pct": -0.6672291346984882,
+      "move_vs_previous_close_pct": -0.5832228124419081,
       "signal": "NO_SIGNAL",
       "raw_direction": "FLAT",
-      "prob_bull": 0.3420868907185445,
-      "prob_bear": 0.25224551408439244,
-      "prob_flat": 0.40566759519706314,
+      "prob_bull": 0.32993446349113276,
+      "prob_bear": 0.2610684081180617,
+      "prob_flat": 0.40899712839080554,
       "regime_on": false,
       "regime_signals": {
-        "trend_168h_pct": -3.8295864325359696,
+        "trend_168h_pct": -3.748254534882045,
         "momentum_up": false,
         "dxy_z252": -0.008050049562371047,
         "real_yield_z252": null
@@ -73,7 +73,7 @@
   },
   "track_record": {
     "available": true,
-    "methodology": "V2-Compass BTC session engine walk-forward on Yahoo BTC-USD hourly (24/7 trading). Same intraday features + macro tailwind regime as gold. HistGradientBoostingClassifier. Emits at 23:00 UTC (Asia), 07:00 UTC (London), 13:00 UTC (NY). 8-hour forward direction target.",
+    "methodology": "V2-Compass BTC session engine walk-forward on Binance BTCUSDT hourly, 9-year evidence window (2017 to 2026). Same intraday features and macro tailwind regime as gold. HistGradientBoostingClassifier. Emits at 23:00 UTC (Asia), 07:00 UTC (London), 13:00 UTC (NY). 8-hour forward direction target.",
     "n_holdout_emits": 2651,
     "coverage": "2017-11-22 to 2026-09-08",
     "mean_return_pct_per_emit": 0.13609125227376212,

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "product": "Compass V2 (Vs) \u2014 gold session-anchored directional forecast (Asia / London / NY)",
-  "generated_at_utc": "2026-09-13T13:47:58.809140Z",
+  "product": "Compass V2 (Vs): gold session-anchored directional forecast (Asia / London / NY)",
+  "generated_at_utc": "2026-09-13T13:55:10.811979Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -56,9 +56,9 @@
       "move_vs_previous_close_pct": 1.3062463733157559,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.26794028148546734,
-      "prob_bear": 0.49269550849029575,
-      "prob_flat": 0.23936421002423675,
+      "prob_bull": 0.2679402814854674,
+      "prob_bear": 0.49269550849029586,
+      "prob_flat": 0.23936421002423677,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -1.0950166754167046,
