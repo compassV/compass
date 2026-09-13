@@ -111,8 +111,8 @@ def track_record_summary() -> dict:
     return {
         "available": True,
         "methodology": (
-            "V2-Compass BTC session engine walk-forward on Yahoo BTC-USD hourly (24/7 trading). "
-            "Same intraday features + macro tailwind regime as gold. HistGradientBoostingClassifier. "
+            "V2-Compass BTC session engine walk-forward on Binance BTCUSDT hourly, 9-year evidence window (2017 to 2026). "
+            "Same intraday features and macro tailwind regime as gold. HistGradientBoostingClassifier. "
             "Emits at 23:00 UTC (Asia), 07:00 UTC (London), 13:00 UTC (NY). 8-hour forward direction target."
         ),
         "n_holdout_emits": vs["n"],
@@ -167,7 +167,7 @@ def main() -> None:
 
     payload = {
         "schema_version": 2,
-        "product": "Compass V2 (Vs) — BTC session-anchored directional forecast (Asia / London / NY)",
+        "product": "Compass V2 (Vs): BTC session-anchored directional forecast (Asia / London / NY)",
         "instrument": "BTC-USD",
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "sessions": sessions,
