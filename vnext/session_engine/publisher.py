@@ -211,6 +211,7 @@ def main() -> None:
     payload = {
         "schema_version": 2,
         "product": "Compass V2 (Vs): gold session-anchored directional forecast (Asia / London / NY)",
+        "instrument": "GC=F",
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "sessions": sessions,
         "track_record": track_record_summary(),
