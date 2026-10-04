@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): gold session-anchored directional forecast (Asia / London / NY)",
   "instrument": "GC=F",
-  "generated_at_utc": "2026-10-04T03:51:39.946733Z",
+  "generated_at_utc": "2026-10-04T15:02:59.098108Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -13,9 +13,9 @@
       "move_vs_previous_close_pct": 0.29290827099004435,
       "signal": "NO_SIGNAL",
       "raw_direction": "FLAT",
-      "prob_bull": 0.27762565577701603,
-      "prob_bear": 0.29761002378909257,
-      "prob_flat": 0.42476432043389156,
+      "prob_bull": 0.25944918322086824,
+      "prob_bear": 0.2815770622835806,
+      "prob_flat": 0.4589737544955511,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -3.71733828732852,
@@ -35,9 +35,9 @@
       "move_vs_previous_close_pct": 0.1377135150777642,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.1203531718211624,
-      "prob_bear": 0.5680212708091573,
-      "prob_flat": 0.3116255573696802,
+      "prob_bull": 0.08789421010872069,
+      "prob_bear": 0.6006313487914898,
+      "prob_flat": 0.3114744410997896,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -3.6772264847562575,
@@ -57,9 +57,9 @@
       "move_vs_previous_close_pct": 0.12334429109346345,
       "signal": "NO_SIGNAL",
       "raw_direction": "FLAT",
-      "prob_bull": 0.09104711844713109,
-      "prob_bear": 0.25431559576439955,
-      "prob_flat": 0.6546372857884692,
+      "prob_bull": 0.08041207289671974,
+      "prob_bear": 0.29578202906166084,
+      "prob_flat": 0.6238058980416195,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -3.0990311268354276,
