@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-05T13:26:38.753358Z",
+  "checked_at_utc": "2026-10-05T23:13:04.145466Z",
   "prev_last_date": "2026-03-30",
   "new_last_date": "2026-10-05",
   "new_rows_appended": 132,
@@ -10,9 +10,9 @@
       "end": "2026-10-05"
     },
     "^GSPC": {
-      "rows": 150,
+      "rows": 151,
       "start": "2026-03-02",
-      "end": "2026-10-02"
+      "end": "2026-10-05"
     },
     "^VIX": {
       "rows": 153,
@@ -25,9 +25,9 @@
       "end": "2026-10-05"
     },
     "SLV": {
-      "rows": 150,
+      "rows": 151,
       "start": "2026-03-02",
-      "end": "2026-10-02"
+      "end": "2026-10-05"
     },
     "^TNX": {
       "rows": 151,
@@ -52,43 +52,43 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-10-05T13:26:42.763117Z",
+  "fred_refreshed_at_utc": "2026-10-05T23:13:07.985819Z",
   "fred_fetched": {
     "DFII10": {
-      "rows": 4893,
-      "start": "2008-01-01",
-      "end": "2026-10-01",
-      "last_value": 2.88
-    },
-    "DGS10": {
-      "rows": 4893,
-      "start": "2008-01-01",
-      "end": "2026-10-01",
-      "last_value": 5.24
-    },
-    "DGS2": {
-      "rows": 4893,
-      "start": "2008-01-01",
-      "end": "2026-10-01",
-      "last_value": 4.78
-    },
-    "DGS5": {
-      "rows": 4893,
-      "start": "2008-01-01",
-      "end": "2026-10-01",
-      "last_value": 5.01
-    },
-    "T10YIE": {
       "rows": 4894,
       "start": "2008-01-01",
       "end": "2026-10-02",
+      "last_value": 2.92
+    },
+    "DGS10": {
+      "rows": 4894,
+      "start": "2008-01-01",
+      "end": "2026-10-02",
+      "last_value": 5.28
+    },
+    "DGS2": {
+      "rows": 4894,
+      "start": "2008-01-01",
+      "end": "2026-10-02",
+      "last_value": 4.83
+    },
+    "DGS5": {
+      "rows": 4894,
+      "start": "2008-01-01",
+      "end": "2026-10-02",
+      "last_value": 5.06
+    },
+    "T10YIE": {
+      "rows": 4895,
+      "start": "2008-01-01",
+      "end": "2026-10-05",
       "last_value": 2.36
     },
     "T5YIFR": {
-      "rows": 4894,
+      "rows": 4895,
       "start": "2008-01-01",
-      "end": "2026-10-02",
-      "last_value": 2.35
+      "end": "2026-10-05",
+      "last_value": 2.36
     }
   }
 }
