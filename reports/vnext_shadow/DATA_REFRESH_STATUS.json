@@ -1,13 +1,13 @@
 {
-  "checked_at_utc": "2026-10-13T00:47:44.769711Z",
+  "checked_at_utc": "2026-10-13T07:22:00.570615Z",
   "prev_last_date": "2026-03-30",
-  "new_last_date": "2026-10-12",
-  "new_rows_appended": 137,
+  "new_last_date": "2026-10-13",
+  "new_rows_appended": 138,
   "yahoo_fetched": {
     "GC=F": {
-      "rows": 156,
+      "rows": 157,
       "start": "2026-03-02",
-      "end": "2026-10-12"
+      "end": "2026-10-13"
     },
     "^GSPC": {
       "rows": 156,
@@ -20,9 +20,9 @@
       "end": "2026-10-12"
     },
     "DX-Y.NYB": {
-      "rows": 156,
+      "rows": 157,
       "start": "2026-03-02",
-      "end": "2026-10-12"
+      "end": "2026-10-13"
     },
     "SLV": {
       "rows": 156,
@@ -52,7 +52,7 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-10-13T00:47:47.413783Z",
+  "fred_refreshed_at_utc": "2026-10-13T07:22:03.097729Z",
   "fred_fetched": {
     "DFII10": {
       "rows": 4898,
