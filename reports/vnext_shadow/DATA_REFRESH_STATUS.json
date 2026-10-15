@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-14T17:57:25.229979Z",
+  "checked_at_utc": "2026-10-15T01:18:25.264692Z",
   "prev_last_date": "2026-03-30",
   "new_last_date": "2026-10-14",
   "new_rows_appended": 139,
@@ -52,43 +52,43 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-10-14T17:57:27.211184Z",
+  "fred_refreshed_at_utc": "2026-10-15T01:18:29.385574Z",
   "fred_fetched": {
     "DFII10": {
-      "rows": 4899,
+      "rows": 4901,
       "start": "2008-01-01",
-      "end": "2026-10-09",
-      "last_value": 2.91
+      "end": "2026-10-13",
+      "last_value": 2.88
     },
     "DGS10": {
-      "rows": 4899,
+      "rows": 4901,
       "start": "2008-01-01",
-      "end": "2026-10-09",
-      "last_value": 5.24
+      "end": "2026-10-13",
+      "last_value": 5.21
     },
     "DGS2": {
-      "rows": 4899,
+      "rows": 4901,
       "start": "2008-01-01",
-      "end": "2026-10-09",
-      "last_value": 4.8
+      "end": "2026-10-13",
+      "last_value": 4.79
     },
     "DGS5": {
-      "rows": 4899,
+      "rows": 4901,
       "start": "2008-01-01",
-      "end": "2026-10-09",
-      "last_value": 5.02
+      "end": "2026-10-13",
+      "last_value": 5.0
     },
     "T10YIE": {
-      "rows": 4901,
+      "rows": 4902,
       "start": "2008-01-01",
-      "end": "2026-10-13",
-      "last_value": 2.33
+      "end": "2026-10-14",
+      "last_value": 2.35
     },
     "T5YIFR": {
-      "rows": 4901,
+      "rows": 4902,
       "start": "2008-01-01",
-      "end": "2026-10-13",
-      "last_value": 2.33
+      "end": "2026-10-14",
+      "last_value": 2.34
     }
   }
 }
