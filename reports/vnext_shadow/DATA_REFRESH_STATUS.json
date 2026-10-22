@@ -1,13 +1,13 @@
 {
-  "checked_at_utc": "2026-10-22T01:21:53.662990Z",
+  "checked_at_utc": "2026-10-22T04:53:15.996791Z",
   "prev_last_date": "2026-03-30",
-  "new_last_date": "2026-10-21",
-  "new_rows_appended": 144,
+  "new_last_date": "2026-10-22",
+  "new_rows_appended": 145,
   "yahoo_fetched": {
     "GC=F": {
-      "rows": 163,
+      "rows": 164,
       "start": "2026-03-02",
-      "end": "2026-10-21"
+      "end": "2026-10-22"
     },
     "^GSPC": {
       "rows": 163,
@@ -20,9 +20,9 @@
       "end": "2026-10-21"
     },
     "DX-Y.NYB": {
-      "rows": 163,
+      "rows": 164,
       "start": "2026-03-02",
-      "end": "2026-10-21"
+      "end": "2026-10-22"
     },
     "SLV": {
       "rows": 163,
@@ -52,25 +52,43 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-10-22T01:21:55.029558Z",
+  "fred_refreshed_at_utc": "2026-10-22T04:53:19.129689Z",
   "fred_fetched": {
     "DFII10": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 4906,
+      "start": "2008-01-01",
+      "end": "2026-10-20",
+      "last_value": 2.77
     },
     "DGS10": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 4906,
+      "start": "2008-01-01",
+      "end": "2026-10-20",
+      "last_value": 5.12
     },
     "DGS2": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 4906,
+      "start": "2008-01-01",
+      "end": "2026-10-20",
+      "last_value": 4.79
     },
     "DGS5": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 4906,
+      "start": "2008-01-01",
+      "end": "2026-10-20",
+      "last_value": 4.94
     },
     "T10YIE": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 4907,
+      "start": "2008-01-01",
+      "end": "2026-10-21",
+      "last_value": 2.37
     },
     "T5YIFR": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 4907,
+      "start": "2008-01-01",
+      "end": "2026-10-21",
+      "last_value": 2.34
     }
   }
 }
