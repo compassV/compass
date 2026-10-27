@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-26T19:10:17.714356Z",
+  "checked_at_utc": "2026-10-27T01:53:25.120044Z",
   "prev_last_date": "2026-03-30",
   "new_last_date": "2026-10-26",
   "new_rows_appended": 147,
@@ -52,43 +52,43 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-10-26T19:10:20.937144Z",
+  "fred_refreshed_at_utc": "2026-10-27T01:53:27.318662Z",
   "fred_fetched": {
     "DFII10": {
-      "rows": 4908,
-      "start": "2008-01-01",
-      "end": "2026-10-22",
-      "last_value": 2.64
-    },
-    "DGS10": {
-      "rows": 4908,
-      "start": "2008-01-01",
-      "end": "2026-10-22",
-      "last_value": 4.96
-    },
-    "DGS2": {
-      "rows": 4908,
-      "start": "2008-01-01",
-      "end": "2026-10-22",
-      "last_value": 4.65
-    },
-    "DGS5": {
-      "rows": 4908,
-      "start": "2008-01-01",
-      "end": "2026-10-22",
-      "last_value": 4.78
-    },
-    "T10YIE": {
       "rows": 4909,
       "start": "2008-01-01",
       "end": "2026-10-23",
+      "last_value": 2.66
+    },
+    "DGS10": {
+      "rows": 4909,
+      "start": "2008-01-01",
+      "end": "2026-10-23",
+      "last_value": 5.0
+    },
+    "DGS2": {
+      "rows": 4909,
+      "start": "2008-01-01",
+      "end": "2026-10-23",
+      "last_value": 4.69
+    },
+    "DGS5": {
+      "rows": 4909,
+      "start": "2008-01-01",
+      "end": "2026-10-23",
+      "last_value": 4.82
+    },
+    "T10YIE": {
+      "rows": 4910,
+      "start": "2008-01-01",
+      "end": "2026-10-26",
       "last_value": 2.34
     },
     "T5YIFR": {
-      "rows": 4909,
+      "rows": 4910,
       "start": "2008-01-01",
-      "end": "2026-10-23",
-      "last_value": 2.2
+      "end": "2026-10-26",
+      "last_value": 2.21
     }
   }
 }
