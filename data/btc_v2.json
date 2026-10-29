@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): BTC session-anchored directional forecast (Asia / London / NY)",
   "instrument": "BTC-USD",
-  "generated_at_utc": "2026-10-28T18:47:12.355455Z",
+  "generated_at_utc": "2026-10-29T02:14:30.083624Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -13,15 +13,15 @@
       "move_vs_previous_close_pct": 0.4541951275183864,
       "signal": "NO_SIGNAL",
       "raw_direction": "BULL",
-      "prob_bull": 0.4346104269787696,
-      "prob_bear": 0.3483021185885988,
-      "prob_flat": 0.21708745443263153,
+      "prob_bull": 0.46860932095726304,
+      "prob_bear": 0.34445420724358833,
+      "prob_flat": 0.18693647179914866,
       "regime_on": false,
       "regime_signals": {
-        "trend_168h_pct": -2.5787254958201666,
+        "trend_168h_pct": -2.5768992882184816,
         "momentum_up": false,
         "dxy_z252": 2.1143169318081614,
-        "real_yield_z252": null
+        "real_yield_z252": 1.526930480901234
       },
       "forecast_horizon_hours": 8,
       "drift_state": "WARMUP"
@@ -34,15 +34,15 @@
       "previous_session_close": 80799.5078125,
       "move_vs_previous_close_pct": 0.2102136103281138,
       "signal": "NO_SIGNAL",
-      "raw_direction": "BEAR",
-      "prob_bull": 0.3026751980053632,
-      "prob_bear": 0.5481342909768452,
-      "prob_flat": 0.14919051101779165,
+      "raw_direction": "BULL",
+      "prob_bull": 0.4751377280389338,
+      "prob_bear": 0.3960995025841481,
+      "prob_flat": 0.12876276937691813,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -2.5060571089707717,
         "momentum_up": false,
-        "dxy_z252": 1.9888504496543564,
+        "dxy_z252": 1.9325193936463532,
         "real_yield_z252": null
       },
       "forecast_horizon_hours": 8,
@@ -51,20 +51,20 @@
     "NY": {
       "session": "NY",
       "session_open_utc": "2026-10-28T13:00:00Z",
-      "session_open_price": 80605.5234375,
+      "session_open_price": 80608.4921875,
       "current_price": 80603.34375,
       "previous_session_close": 80781.1015625,
       "move_vs_previous_close_pct": -0.22004876024434017,
       "signal": "NO_SIGNAL",
-      "raw_direction": "FLAT",
-      "prob_bull": 0.26188345131786833,
-      "prob_bear": 0.34495675207634574,
-      "prob_flat": 0.393159796605786,
+      "raw_direction": "BULL",
+      "prob_bull": 0.46402045642015366,
+      "prob_bear": 0.4138595619563669,
+      "prob_flat": 0.12211998162347942,
       "regime_on": false,
       "regime_signals": {
-        "trend_168h_pct": -3.726208875637116,
+        "trend_168h_pct": -3.7422599925958644,
         "momentum_up": true,
-        "dxy_z252": 1.9888504496543564,
+        "dxy_z252": 1.9325193936463532,
         "real_yield_z252": null
       },
       "forecast_horizon_hours": 8,
