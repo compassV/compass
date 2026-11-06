@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): BTC session-anchored directional forecast (Asia / London / NY)",
   "instrument": "BTC-USD",
-  "generated_at_utc": "2026-11-05T20:36:05.590182Z",
+  "generated_at_utc": "2026-11-06T03:18:13.381909Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -13,15 +13,15 @@
       "move_vs_previous_close_pct": 0.2864862816527758,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.2790853787325785,
-      "prob_bear": 0.5098398394719069,
-      "prob_flat": 0.21107478179551453,
+      "prob_bull": 0.2630882279828597,
+      "prob_bear": 0.5228474045353467,
+      "prob_flat": 0.21406436748179358,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -1.007633746335923,
         "momentum_up": true,
         "dxy_z252": 1.4138951731532443,
-        "real_yield_z252": null
+        "real_yield_z252": 1.4477960949514799
       },
       "forecast_horizon_hours": 8,
       "drift_state": "WARMUP"
@@ -35,14 +35,14 @@
       "move_vs_previous_close_pct": -0.17402923527963798,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.19734605699107613,
-      "prob_bear": 0.6685423219045907,
-      "prob_flat": 0.13411162110433317,
+      "prob_bull": 0.20200395409315736,
+      "prob_bear": 0.7037887338012689,
+      "prob_flat": 0.09420731210557358,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": 0.6910386213480724,
         "momentum_up": true,
-        "dxy_z252": 1.439624987321213,
+        "dxy_z252": 1.523293116953547,
         "real_yield_z252": null
       },
       "forecast_horizon_hours": 8,
@@ -57,14 +57,14 @@
       "move_vs_previous_close_pct": -0.9234530779694161,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.19128743565644976,
-      "prob_bear": 0.6322568778689331,
-      "prob_flat": 0.17645568647461707,
+      "prob_bull": 0.1989994418198615,
+      "prob_bear": 0.6833745949625455,
+      "prob_flat": 0.11762596321759299,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -0.7649943570462114,
         "momentum_up": true,
-        "dxy_z252": 1.439624987321213,
+        "dxy_z252": 1.523293116953547,
         "real_yield_z252": null
       },
       "forecast_horizon_hours": 8,
