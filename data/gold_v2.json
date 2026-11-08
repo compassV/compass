@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): gold session-anchored directional forecast (Asia / London / NY)",
   "instrument": "GC=F",
-  "generated_at_utc": "2026-11-08T14:10:05.030648Z",
+  "generated_at_utc": "2026-11-08T18:19:02.691508Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",

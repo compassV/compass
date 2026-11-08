@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): BTC session-anchored directional forecast (Asia / London / NY)",
   "instrument": "BTC-USD",
-  "generated_at_utc": "2026-11-08T14:10:08.081581Z",
+  "generated_at_utc": "2026-11-08T18:19:05.600508Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -13,9 +13,9 @@
       "move_vs_previous_close_pct": 0.12025986952830525,
       "signal": "NO_SIGNAL",
       "raw_direction": "FLAT",
-      "prob_bull": 0.1806435783542758,
-      "prob_bear": 0.041125962299385734,
-      "prob_flat": 0.7782304593463385,
+      "prob_bull": 0.24342734153776854,
+      "prob_bear": 0.08429639525048083,
+      "prob_flat": 0.6722762632117506,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -2.1730254406448046,
@@ -35,9 +35,9 @@
       "move_vs_previous_close_pct": 0.13463611174622248,
       "signal": "NO_SIGNAL",
       "raw_direction": "FLAT",
-      "prob_bull": 0.16983446563922572,
-      "prob_bear": 0.06471738475645324,
-      "prob_flat": 0.765448149604321,
+      "prob_bull": 0.20437844646391545,
+      "prob_bear": 0.10524733664665883,
+      "prob_flat": 0.6903742168894257,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -2.5186462833431844,
@@ -57,9 +57,9 @@
       "move_vs_previous_close_pct": 0.1743746114529321,
       "signal": "NO_SIGNAL",
       "raw_direction": "FLAT",
-      "prob_bull": 0.19997160989769974,
-      "prob_bear": 0.07105416941041226,
-      "prob_flat": 0.728974220691888,
+      "prob_bull": 0.22375515445335306,
+      "prob_bear": 0.1319237793356584,
+      "prob_flat": 0.6443210662109885,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -2.6587226841601974,
