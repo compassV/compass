@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): BTC session-anchored directional forecast (Asia / London / NY)",
   "instrument": "BTC-USD",
-  "generated_at_utc": "2026-11-16T16:52:17.656159Z",
+  "generated_at_utc": "2026-11-16T22:50:59.157914Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
@@ -13,15 +13,15 @@
       "move_vs_previous_close_pct": 0.9442145743104868,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.15303888618797162,
-      "prob_bear": 0.7477190327752029,
-      "prob_flat": 0.09924208103682543,
+      "prob_bull": 0.17788783480032333,
+      "prob_bear": 0.6950828057885096,
+      "prob_flat": 0.12702935941116716,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -12.590494659005092,
         "momentum_up": false,
         "dxy_z252": 2.5628111791953496,
-        "real_yield_z252": null
+        "real_yield_z252": 2.148870326872452
       },
       "forecast_horizon_hours": 8,
       "drift_state": "WARMUP"
@@ -35,14 +35,14 @@
       "move_vs_previous_close_pct": -0.5881978985439518,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.26368708262229207,
-      "prob_bear": 0.5601143175342796,
-      "prob_flat": 0.17619859984342817,
+      "prob_bull": 0.40046940626945765,
+      "prob_bear": 0.4873196911556811,
+      "prob_flat": 0.1122109025748613,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -11.969090213316635,
         "momentum_up": false,
-        "dxy_z252": 2.6074267173975856,
+        "dxy_z252": 2.6389839424961075,
         "real_yield_z252": null
       },
       "forecast_horizon_hours": 8,
@@ -56,15 +56,15 @@
       "previous_session_close": 64399.80859375,
       "move_vs_previous_close_pct": -0.4463631764239362,
       "signal": "NO_SIGNAL",
-      "raw_direction": "FLAT",
-      "prob_bull": 0.19278222159801603,
-      "prob_bear": 0.36280659057554876,
-      "prob_flat": 0.4444111878264352,
+      "raw_direction": "BULL",
+      "prob_bull": 0.6749455593860624,
+      "prob_bear": 0.22396937633500177,
+      "prob_flat": 0.10108506427893578,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -14.073015907585972,
         "momentum_up": false,
-        "dxy_z252": 2.6074267173975856,
+        "dxy_z252": 2.6389839424961075,
         "real_yield_z252": null
       },
       "forecast_horizon_hours": 8,
