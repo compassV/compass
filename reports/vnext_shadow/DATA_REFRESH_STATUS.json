@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T07:30:11.140201Z",
+  "checked_at_utc": "2026-11-19T16:26:42.678814Z",
   "prev_last_date": "2026-03-30",
   "new_last_date": "2026-11-19",
   "new_rows_appended": 165,
@@ -10,14 +10,14 @@
       "end": "2026-11-19"
     },
     "^GSPC": {
-      "rows": 183,
+      "rows": 184,
       "start": "2026-03-02",
-      "end": "2026-11-18"
+      "end": "2026-11-19"
     },
     "^VIX": {
-      "rows": 185,
+      "rows": 186,
       "start": "2026-03-02",
-      "end": "2026-11-18"
+      "end": "2026-11-19"
     },
     "DX-Y.NYB": {
       "rows": 184,
@@ -25,19 +25,19 @@
       "end": "2026-11-19"
     },
     "SLV": {
-      "rows": 183,
+      "rows": 184,
       "start": "2026-03-02",
-      "end": "2026-11-18"
+      "end": "2026-11-19"
     },
     "^TNX": {
-      "rows": 183,
+      "rows": 184,
       "start": "2026-03-02",
-      "end": "2026-11-18"
+      "end": "2026-11-19"
     },
     "^FVX": {
-      "rows": 183,
+      "rows": 184,
       "start": "2026-03-02",
-      "end": "2026-11-18"
+      "end": "2026-11-19"
     }
   },
   "fred_stale_carried_forward": [
@@ -52,7 +52,7 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-11-19T07:30:15.021128Z",
+  "fred_refreshed_at_utc": "2026-11-19T16:26:45.774610Z",
   "fred_fetched": {
     "DFII10": {
       "rows": 4926,
