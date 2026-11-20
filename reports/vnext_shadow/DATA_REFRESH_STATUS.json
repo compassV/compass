@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T15:58:35.799841Z",
+  "checked_at_utc": "2026-11-20T21:00:21.036326Z",
   "prev_last_date": "2026-03-30",
   "new_last_date": "2026-11-20",
   "new_rows_appended": 166,
@@ -52,7 +52,7 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-11-20T15:58:43.590194Z",
+  "fred_refreshed_at_utc": "2026-11-20T21:00:46.628536Z",
   "fred_fetched": {
     "DFII10": {
       "rows": 4927,
