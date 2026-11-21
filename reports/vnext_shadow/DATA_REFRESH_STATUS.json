@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-11-20T21:00:21.036326Z",
+  "checked_at_utc": "2026-11-21T03:50:25.326429Z",
   "prev_last_date": "2026-03-30",
   "new_last_date": "2026-11-20",
-  "new_rows_appended": 166,
+  "new_rows_appended": 164,
   "yahoo_fetched": {
     "GC=F": {
       "rows": 185,
@@ -15,7 +15,7 @@
       "end": "2026-11-20"
     },
     "^VIX": {
-      "rows": 187,
+      "rows": 185,
       "start": "2026-03-02",
       "end": "2026-11-20"
     },
@@ -52,43 +52,43 @@
     "is_cpi_day"
   ],
   "note": "FRED features are not refreshed here (network unreachable from this box). Real-yield / breakeven-inflation / calendar-event features carry forward last observed value. Vg regime detector uses these; treat forecasts on days with stale FRED features accordingly.",
-  "fred_refreshed_at_utc": "2026-11-20T21:00:46.628536Z",
+  "fred_refreshed_at_utc": "2026-11-21T03:50:28.291712Z",
   "fred_fetched": {
     "DFII10": {
-      "rows": 4927,
+      "rows": 4928,
       "start": "2008-01-01",
-      "end": "2026-11-18",
+      "end": "2026-11-19",
       "last_value": 2.88
     },
     "DGS10": {
-      "rows": 4927,
+      "rows": 4928,
       "start": "2008-01-01",
-      "end": "2026-11-18",
-      "last_value": 5.07
+      "end": "2026-11-19",
+      "last_value": 5.04
     },
     "DGS2": {
-      "rows": 4927,
+      "rows": 4928,
       "start": "2008-01-01",
-      "end": "2026-11-18",
-      "last_value": 4.8
+      "end": "2026-11-19",
+      "last_value": 4.76
     },
     "DGS5": {
-      "rows": 4927,
+      "rows": 4928,
       "start": "2008-01-01",
-      "end": "2026-11-18",
-      "last_value": 4.89
+      "end": "2026-11-19",
+      "last_value": 4.86
     },
     "T10YIE": {
-      "rows": 4928,
+      "rows": 4929,
       "start": "2008-01-01",
-      "end": "2026-11-19",
-      "last_value": 2.16
+      "end": "2026-11-20",
+      "last_value": 2.15
     },
     "T5YIFR": {
-      "rows": 4928,
+      "rows": 4929,
       "start": "2008-01-01",
-      "end": "2026-11-19",
-      "last_value": 2.1
+      "end": "2026-11-20",
+      "last_value": 2.12
     }
   }
 }
