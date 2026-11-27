@@ -2,26 +2,26 @@
   "schema_version": 2,
   "product": "Compass V2 (Vs): gold session-anchored directional forecast (Asia / London / NY)",
   "instrument": "GC=F",
-  "generated_at_utc": "2026-11-27T17:19:59.231214Z",
+  "generated_at_utc": "2026-11-27T21:54:34.209438Z",
   "sessions": {
     "ASIA": {
       "session": "ASIA",
       "session_open_utc": "2026-11-25T23:00:00Z",
-      "session_open_price": 3619.800048828125,
+      "session_open_price": 3618.5,
       "current_price": 3603.800048828125,
       "previous_session_close": 3472.60009765625,
       "move_vs_previous_close_pct": 3.7781474250497604,
       "signal": "NO_SIGNAL",
       "raw_direction": "BULL",
-      "prob_bull": 0.6702914900807472,
-      "prob_bear": 0.2178181320646801,
-      "prob_flat": 0.11189037785457281,
+      "prob_bull": 0.6205558551454002,
+      "prob_bear": 0.2683139623430664,
+      "prob_flat": 0.11113018251153328,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -6.808720803159563,
         "momentum_up": false,
         "dxy_z252": 2.360694841334653,
-        "real_yield_z252": null
+        "real_yield_z252": 1.4617364686098144
       },
       "forecast_horizon_hours": 8,
       "drift_state": "WARMUP"
@@ -35,15 +35,15 @@
       "move_vs_previous_close_pct": -0.755158089125052,
       "signal": "NO_SIGNAL",
       "raw_direction": "BEAR",
-      "prob_bull": 0.28169482770980064,
-      "prob_bear": 0.6442476505019411,
-      "prob_flat": 0.07405752178825828,
+      "prob_bull": 0.30006996415750314,
+      "prob_bear": 0.5595823899069632,
+      "prob_flat": 0.14034764593553362,
       "regime_on": false,
       "regime_signals": {
         "trend_168h_pct": -9.039022524543006,
         "momentum_up": false,
         "dxy_z252": 2.360694841334653,
-        "real_yield_z252": null
+        "real_yield_z252": 1.4617364686098144
       },
       "forecast_horizon_hours": 8,
       "drift_state": "WARMUP"
@@ -51,21 +51,21 @@
     "NY": {
       "session": "NY",
       "session_open_utc": "2026-11-25T13:00:00Z",
-      "session_open_price": 3549.199951171875,
-      "current_price": 3503.10009765625,
+      "session_open_price": 3549.10009765625,
+      "current_price": 3503.699951171875,
       "previous_session_close": 3521.800048828125,
-      "move_vs_previous_close_pct": -0.530977083099804,
+      "move_vs_previous_close_pct": -0.5139445001221099,
       "signal": "NO_SIGNAL",
       "raw_direction": "BULL",
-      "prob_bull": 0.6479058343384726,
-      "prob_bear": 0.2810434399613407,
-      "prob_flat": 0.07105072570018668,
+      "prob_bull": 0.6726710420583505,
+      "prob_bear": 0.2828569717725316,
+      "prob_flat": 0.044471986169117864,
       "regime_on": false,
       "regime_signals": {
-        "trend_168h_pct": -9.239056352226417,
+        "trend_168h_pct": -9.22351489762596,
         "momentum_up": false,
         "dxy_z252": 2.360694841334653,
-        "real_yield_z252": null
+        "real_yield_z252": 1.4617364686098144
       },
       "forecast_horizon_hours": 8,
       "drift_state": "WARMUP"
